@@ -20,6 +20,36 @@
 
 ---
 
+## 🧠 Intuition
+
+Financial markets are not only driven by information,  
+but also by how that information is **shared, repeated, and aligned across participants**.
+
+This project starts from a simple question:
+
+> instead of measuring *what* investors say,  
+> can we measure **how similar their narratives are**?
+
+If discussions are diverse, narratives are dispersed.  
+If discussions become repetitive, narratives converge.
+
+This distinction turns out to matter.
+
+Empirically, narrative dispersion appears to follow a three-regime structure:
+
+- **High dispersion** — heterogeneous views, weak consensus  
+- **Intermediate dispersion** — partial alignment without overcrowding  
+- **Low dispersion** — strong consensus, highly similar narratives  
+
+The intermediate regime is particularly interesting:  
+it reflects a state where information is being absorbed, but not yet saturated.
+
+In contrast, extremely low dispersion may indicate **narrative crowding**,  
+a condition under which markets become more fragile to reversals.
+
+This motivates the construction of the ND factor,  
+which aims to quantify the **structure of narratives**, rather than their sentiment.
+
 ## 📜 Abstract
 
 We introduce the **Narrative Dispersion (ND)** factor — a novel behavioural market structure indicator that quantifies the degree of consensus (or divergence) in retail investor discussions within the Chinese A-share market.
@@ -384,18 +414,22 @@ Together, they form a **dual-factor behavioural alpha system**.
 
 ## 🎓 Application Value
 
-### For MFE/MCF/Quant Finance Admissions
+The ND factor is best viewed as a **descriptor of narrative alignment**,  
+rather than a standalone return signal.
 
-This project demonstrates:
+It can be useful in three main ways:
 
-| Skill | Demonstrated by |
-|-------|----------------|
-| **NLP + Finance integration** | Real-world text-as-data application |
-| **Behavioural finance literacy** | Herding, cascades, narrative economics |
-| **Statistical inference** | Bootstrap IC testing, non-linear validation |
-| **Novel factor design** | First open-source ND implementation for A-shares |
-| **Critical thinking** | Identifying inverted-U relationship (not just linear IC) |
-| **Storytelling** | "The Goldilocks zone" framework is intuitive and memorable |
+- **Market state characterization**  
+  Distinguishing between dispersed and consensus-driven regimes.
+
+- **Conditioning variable for existing signals**  
+  Providing context for when factors such as momentum or sentiment may behave differently.
+
+- **Behavioral interpretation**  
+  Offering a structural measure of herding through narrative similarity.
+
+More broadly, ND highlights the value of analyzing  
+**how narratives converge**, not just what they express.
 
 ### Key Differentiators
 
