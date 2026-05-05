@@ -462,7 +462,6 @@ This project is **purely for academic demonstration and educational purposes**. 
 ## 📖 See Also
 
 - **[SDL Factor Demo](https://github.com/yourusername/sdl-factor-demo)** — The companion information asymmetry factor
-- **[Retail Behaviour Alpha](https://github.com/yourusername/retail-behavior-alpha)** — Dual-factor behavioural research framework combining SDL + ND
 
 <p align="center">
   <sub>© 2026 ND Research Group. MIT License.</sub>
