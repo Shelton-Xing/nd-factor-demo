@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-05-03 19:56:47.269805",
+  "n_stocks": 300,
+  "results": [
+    {
+      "horizon": "1d",
+      "ic_pearson": 0.007682015515619835,
+      "ic_rank": 0.053783333522452195,
+      "ic_pval": 0.35323236511806544,
+      "ic_mean_bs": 0.0541146352154205,
+      "icir": 0.9214224177757201,
+      "ic_pos_ratio": 0.8216,
+      "bs_pval": 0.3568,
+      "verdict": "INSIGNIFICANT",
+      "n_stocks": 300
+    },
+    {
+      "horizon": "5d",
+      "ic_pearson": -0.1238534913544854,
+      "ic_rank": -0.0045382948349400294,
+      "ic_pval": 0.9376070585086078,
+      "ic_mean_bs": -0.0041543777224237865,
+      "icir": -0.07083612486533512,
+      "ic_pos_ratio": 0.4762,
+      "bs_pval": 0.9524,
+      "verdict": "INSIGNIFICANT",
+      "n_stocks": 300
+    },
+    {
+      "horizon": "10d",
+      "ic_pearson": 0.056530462777512065,
+      "ic_rank": 0.1396990131261591,
+      "ic_pval": 0.015633163440040204,
+      "ic_mean_bs": 0.1388738448963279,
+      "icir": 2.4747143731574566,
+      "ic_pos_ratio": 0.993,
+      "bs_pval": 0.014,
+      "verdict": "SIGNIFICANT (p<0.05)",
+      "n_stocks": 299
+    }
+  ],
+  "nd_mean": 0.3134339753786723,
+  "nd_std": 0.08580940439561076
+}
